@@ -1,0 +1,107 @@
+
+HTML FILE 
+
+................
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Pawan Kalyan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tribute to Pawan Kalyan</h1>
+    </header>
+    <section class="introduction">
+        <img src="pawankalyan.jpg" alt="Pawan Kalyan">
+        <p>Pawan Kalyan, born Konidela Kalyan Babu, is an Indian actor, politician, and film producer. He is the founder of the JanaSena Party and is known for his commitment to social justice and his ability to connect with the masses. His charisma and dedication to public service have earned him a special place in the hearts of many.</p>
+    </section>
+    <section class="life-work">
+        <h2>Life and Work</h2>
+        <p>Pawan Kalyan started his career as an actor in Telugu cinema and soon became a popular figure. His films, characterized by strong social messages, resonated with audiences across the region. In 2014, he established the JanaSena Party, aiming to address the issues faced by the common man. His leadership and advocacy for various social causes have made a significant impact on society.</p>
+    </section>
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Founded the JanaSena Party in 2014</li>
+            <li>Starred in several blockbuster films</li>
+            <li>Known for his philanthropic efforts and social initiatives</li>
+            <li>Advocate for farmers' rights and anti-corruption measures</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tribute to Pawan Kalyan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+CSS FILE 
+
+.........................
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: ;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.introduction, .life-work, .achievements {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.introduction img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FFA500;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
